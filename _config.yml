@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "https://dianaruth.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,11 +12,11 @@ url: "https://panossakkos.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: /cs373-blog
 
 # Google tracking id to track your visitors
 
-google-tracking-id: "UA-35880426-4"
+google-tracking-id: "UA-72750199-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -29,11 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
+author: "Diana Ruth"
+title: "CS373 Spring 2016: Diana Ruth"
+description: "Diana Ruth's blog for CS373: Software Engineering during the Spring semester of 2016"
+favicon: "/img/black-lab-glass.ico"
 404-img: "/img/labtocat.png"
 
 ################
@@ -42,7 +41,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/background.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -57,15 +56,18 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
+  - text: "Good things are going to happen."
   - text: "Where’s your will to be weird?"
+  - text: "Stay away from people who make you feel you're hard to love."
+  - text: "Follow your heart but take your brain with you."
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/headshot.png"
 
 ################
 # Web app mode #
 ################
 
-web-app-mode: True
+web-app-mode: False
 
 # Icons for Web App mode
 
@@ -84,42 +86,29 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
-
-disqus-shortname: "panossakkos"
-
 syntax-highlight: True
 
 ############
 # Timeline #
 ############
 
-events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+#events:
+#  - image: "/img/timeline/spidertocat.png"
+#    date: "September 2013 - Today"
+#    description: "Saving the neighborhood!"
+#  - image: "/img/timeline/baracktocat.jpg"
+#    date: "September 2007 - August 2013"
+#    description: "Started coding"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+#timeline-img: "/img/timeline/default.png"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "hello@dianaruth.me"
 
 ##################
 # Social Buttons #
@@ -127,15 +116,13 @@ email: "your@email.here"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://www.facebook.com/diana.ruth.16"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/pub/diana-ruth/81/a39/bab"
+  - title: "youtube"
+    url: "https://www.youtube.com/channel/UCDv_zt5mQC0mGGY-8wS9YxA"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://github.com/dianaruth"
 
 ############
 # 404 page #
@@ -152,7 +139,7 @@ social:
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
+  #Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
